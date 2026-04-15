@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0abb861-3d11-4c05-b136-cccac23de4c6" name="Changes" comment="init">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
-    </list>
+    <list default="true" id="a0abb861-3d11-4c05-b136-cccac23de4c6" name="Changes" comment="Init the Project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "v1kyc"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/v1kyc/Fallow-Index.git",
+    "accountId": "df60375c-f064-4a70-9a43-f8d15362f494"
+  }
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -81,7 +91,7 @@
       <workItem from="1776200725219" duration="2696000" />
       <workItem from="1776233182328" duration="256000" />
       <workItem from="1776233450967" duration="10372000" />
-      <workItem from="1776270843129" duration="874000" />
+      <workItem from="1776270843129" duration="1286000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -107,7 +117,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776271317089</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="init">
+      <option name="closed" value="true" />
+      <created>1776271895221</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776271895221</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Init the Project">
+      <option name="closed" value="true" />
+      <created>1776272112969</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1776272112969</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +152,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="Init the Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init the Project" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Lottery$random_provider.coverage" NAME="random_provider Coverage Results" MODIFIED="1776246255571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
