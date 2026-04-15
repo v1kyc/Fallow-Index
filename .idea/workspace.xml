@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0abb861-3d11-4c05-b136-cccac23de4c6" name="Changes" comment="Init the Project" />
+    <list default="true" id="a0abb861-3d11-4c05-b136-cccac23de4c6" name="Changes" comment="fix: rename example env semantically">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multimulti_set.py" beforeDir="false" afterPath="$PROJECT_DIR$/multimulti_set.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +95,7 @@
       <workItem from="1776200725219" duration="2696000" />
       <workItem from="1776233182328" duration="256000" />
       <workItem from="1776233450967" duration="10372000" />
-      <workItem from="1776270843129" duration="1286000" />
+      <workItem from="1776270843129" duration="2768000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -133,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776272112969</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix: rename example env semantically">
+      <option name="closed" value="true" />
+      <created>1776272248305</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1776272248305</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +165,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="Init the Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init the Project" />
+    <MESSAGE value="fix: rename example env semantically" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: rename example env semantically" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Lottery$random_provider.coverage" NAME="random_provider Coverage Results" MODIFIED="1776246255571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />

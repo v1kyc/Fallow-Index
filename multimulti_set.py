@@ -1,6 +1,5 @@
 class MultiMultiSet:
-
-    """Represents a single Multi Multi draw."""
+    """Represents a single Multi Multi ticket/result."""
 
     POOL_SIZE = 80
     DRAW_COUNT = 20
@@ -8,10 +7,16 @@ class MultiMultiSet:
 
     PRIZE_TABLE = [0,0,0,0,2,4,12,140,520,10000,250000]
 
-    def serialise(self, number):
+    def __init__(self, numbers):
+        self.numbers = numbers
+        self.drawn = []
+        self.hits = 0
+        self.prize = 0
+
+    def serialise(self):
         return {
-            "number":number,
-            "drawn": "",
-            "hits": "",
-            "prize": ""
+            "numbers": self.numbers,
+            "drawn": self.drawn,
+            "hits": self.hits,
+            "prize": self.prize
         }
