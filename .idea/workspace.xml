@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0abb861-3d11-4c05-b136-cccac23de4c6" name="Changes" comment="fix: rename example env semantically">
+    <list default="true" id="a0abb861-3d11-4c05-b136-cccac23de4c6" name="Changes" comment="feat: introduce MultiMultiSet ticket model">
+      <change afterPath="$PROJECT_DIR$/utils/export_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/multimulti_set.py" beforeDir="false" afterPath="$PROJECT_DIR$/multimulti_set.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/random_provider.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/random_provider.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,18 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "v1kyc"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;v1kyc&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/v1kyc/Fallow-Index.git",
-    "accountId": "df60375c-f064-4a70-9a43-f8d15362f494"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/v1kyc/Fallow-Index.git&quot;,
+    &quot;accountId&quot;: &quot;df60375c-f064-4a70-9a43-f8d15362f494&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -48,27 +51,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.random_provider.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/viktor/PycharmProjects/Lottery",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.random_provider.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/viktor/PycharmProjects/Lottery&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -95,7 +99,14 @@
       <workItem from="1776200725219" duration="2696000" />
       <workItem from="1776233182328" duration="256000" />
       <workItem from="1776233450967" duration="10372000" />
-      <workItem from="1776270843129" duration="2768000" />
+      <workItem from="1776270843129" duration="5633000" />
+      <workItem from="1776277940763" duration="1712000" />
+      <workItem from="1776299776604" duration="1854000" />
+      <workItem from="1776301855956" duration="421000" />
+      <workItem from="1776343430058" duration="941000" />
+      <workItem from="1776344450480" duration="972000" />
+      <workItem from="1776345436821" duration="1626000" />
+      <workItem from="1776425275737" duration="103000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -145,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776272248305</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: introduce MultiMultiSet ticket model">
+      <option name="closed" value="true" />
+      <created>1776274532152</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1776274532152</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +185,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="Init the Project" />
     <MESSAGE value="fix: rename example env semantically" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: rename example env semantically" />
+    <MESSAGE value="feat: introduce MultiMultiSet ticket model" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: introduce MultiMultiSet ticket model" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Lottery$random_provider.coverage" NAME="random_provider Coverage Results" MODIFIED="1776246255571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
